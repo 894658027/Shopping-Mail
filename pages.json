@@ -1,0 +1,75 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+			"path": "pages/index/index",
+			"style": { 
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/goodsDetail/goodsDetail",
+			"style": {
+				"navigationBarTitleText": "详情页",
+				"enablePullDownRefresh": false
+			}
+		}, {
+            "path" : "pages/echartsVue/echartsVue",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "图表页",
+                "enablePullDownRefresh": false
+            }
+        }, {
+            "path" : "pages/mine/mine",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人中心",
+                "enablePullDownRefresh": false
+            }
+        }, {
+		    "path" : "pages/evaluate/evaluate",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "商品评价",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+    ],
+	
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uView",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#909399",
+		"selectedColor": "#303133",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/home2.png",
+				"selectedIconPath": "static/tabbar/home.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/echartsVue/echartsVue",
+				"iconPath": "static/uview/example/js.png",
+				"selectedIconPath": "static/uview/example/js_select.png",
+				"text": "图表页"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"iconPath": "static/tabbar/mine2.png",
+				"selectedIconPath": "static/tabbar/mine.png",
+				"text": "个人中心"
+			}
+		]
+	}
+	
+	
+}
